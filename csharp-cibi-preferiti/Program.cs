@@ -4,11 +4,11 @@
 //un array con la classifica dei vostri cibi preferiti (minimo 5, massimo 10 elementi).
 //L’array deve essere già inizializzato nel programma,
 //e i vostri cibi preferiti non vanno chiesti all’utente tramite input.
-string[] cibi = { "pasta", "pomodoro", "grana", "pinoli", "pizzette", "calamari", "insalata" };
+string[] cibi = { "pasta", "pomodoro", "pinoli", "crepes", "ragù", "amatriciana", "cacio e pepe", "pizzette", "calamari", "insalata" };
 
 //Una volta dichiarato l’array di cibi preferiti, stampate a video le seguenti informazioni:
 //-La lunghezza della classifica
-Console.WriteLine($"ti piacciono {cibi.Length} cibi");
+Console.WriteLine($"ti piacciono {cibi.Length} cibi \n");
 
 //- La vostra classifica (dunque stampare l’intero array in ordine indicando la posizione in classifica)
 Console.WriteLine($"in ordine sono: \n");
@@ -50,7 +50,7 @@ if (cibi.Length % 2 == 0)
 //se la length è dispari
 else
 {
-    Console.Write($"il cibo a metà è {mediana+1}: {cibi[mediana]}");
+    Console.Write($"il cibo a metà è alla posizione {mediana+1}: {cibi[mediana]}");
 
 }
 
